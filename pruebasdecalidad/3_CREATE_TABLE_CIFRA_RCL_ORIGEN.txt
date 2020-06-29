@@ -1,0 +1,43 @@
+USE [CRTSA]
+GO
+
+/****** Object:  Table [dbo].[CIFRA_RCL_ORIGEN]    Script Date: 05/06/2015 11:39:28 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[CIFRA_RCL_ORIGEN]') AND type in (N'U'))
+DROP TABLE [dbo].[CIFRA_RCL_ORIGEN]
+GO
+
+USE [CRTSA]
+GO
+
+/****** Object:  Table [dbo].[CIFRA_RCL_ORIGEN]    Script Date: 05/06/2015 11:39:29 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[CIFRA_RCL_ORIGEN](
+	[FH_PROCESO] [char](8) NULL,
+	[CT_REGISTROS] [bigint] NULL,
+	[IM_CAPITAL_PESOS] [decimal](15, 2) NULL,
+	[IM_INTERES_PESOS] [decimal](15, 2) NULL,
+	[IM_INTERES_COMPLEMENTARIO_PESOS] [decimal](15, 2) NULL,
+	[CT_CRED_VIG] [bigint] NULL,
+	[CT_CRED_VEN] [bigint] NULL,
+	[CT_CRED_CAN] [bigint] NULL,
+	[CT_CRED_ACT] [bigint] NULL,
+	[CT_CRED_OTR] [bigint] NULL,
+	[CT_REG_ROA] [bigint] NULL,
+	[CT_REG_REA] [bigint] NULL,
+	[CT_REG_EXT] [bigint] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+

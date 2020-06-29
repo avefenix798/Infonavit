@@ -1,0 +1,26 @@
+Pendientes
+
+1. Modificar la matriz de pruebas  con las validaciones extras que no pidio Victor
+2. Adicionar lo de la vista CARTERA HANA y la matriz de pruebas ,plan de  instalacion 
+3. Adicionar lo de tabla hana  matriz de pruebas ,plan de  instalacion
+4. poner en orden los consecutivos de los scripts (Nombre del txt)  *****
+5. Corregir el nombre  en el plan de instalacion y matriz de pruebas
+6. Validar que exista  la vista V_M_ACREDITADO_OFICIAL en el 28 en crtdw que su definicion este diferente al scrip de pruebas  o de instalacion 
+7. Verificar  los objetos de bases de datos que utiliza  el dts 26,29 .30 .35  *********
+8. identificar los creditos CV_Credito que estan en producion pero que no se encuentran en reclsificada 
+9. Sacar las cifras control sin considerar esos registros
+10. carteraoficial  tiene que estar marzo
+11. crtll que no este abril
+12. crtdw que no este abril
+13. EL FORMATO  de CYbermation para el 50
+14. Corregir la matriz y plan de instalacion CRTDW035 A CRTDW050
+15. Adicionar el flujo de la cadena CRTDWO50 
+16. Modificar las modificaciones de Amelia 
+
+ 
+
+
+
+ 
+
+ 

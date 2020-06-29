@@ -1,0 +1,42 @@
+USE [CRTDW]
+GO
+
+/****** Object:  Table [dbo].[POOL_SALDOS_HIST]    Script Date: 05/13/2015 09:23:21 ******/
+IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[POOL_SALDOS_HIST]') AND type in (N'U'))
+DROP TABLE [dbo].[POOL_SALDOS_HIST]
+GO
+
+USE [CRTDW]
+GO
+
+/****** Object:  Table [dbo].[POOL_SALDOS_HIST]    Script Date: 05/13/2015 09:23:22 ******/
+SET ANSI_NULLS ON
+GO
+
+SET QUOTED_IDENTIFIER ON
+GO
+
+SET ANSI_PADDING ON
+GO
+
+CREATE TABLE [dbo].[POOL_SALDOS_HIST](
+	[FH_PERIODO] [datetime] NULL,
+	[CV_POOL_SALDOS] [char](4) NOT NULL,
+	[TX_POOL] [varchar](10) NULL,
+	[CV_SEGMENTO_CARTERA] [char](3) NOT NULL,
+	[IN_ACFIN] [int] NOT NULL,
+	[IN_CEDEVIS] [int] NOT NULL,
+	[CV_PREFIJO_HIJO] [char](4) NULL,
+	[CV_POOL_CONT] [char](4) NULL,
+	[CV_POOL_CONT_HIJO] [char](4) NULL,
+	[CV_POOL_CART] [char](4) NULL,
+	[CV_POOL_SAP] [char](4) NULL,
+	[FH_CORTE] [datetime] NULL
+) ON [PRIMARY]
+
+GO
+
+SET ANSI_PADDING OFF
+GO
+
+
